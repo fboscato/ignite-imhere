@@ -7,7 +7,7 @@ export  function Home(){
       <Text style ={styles.eventNome}>
         Nome do evento
       </Text>
-{/* teste */}
+
       <Text style ={styles.eventDate}>
          Sexta, 4  de Novembro de 2022 
       </Text>
