@@ -14,7 +14,7 @@ export  function Home(){
 
      <TextInput 
         style={styles.input}
-        placeholder="Nome do participantes"
+        placeholder="Nome do participante"
      />
     </View>
   )
