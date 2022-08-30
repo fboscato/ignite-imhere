@@ -1,5 +1,4 @@
-import {Text,TextInput,View} from 'react-native'
-
+import {Text,TextInput,TouchableOpacity,View} from 'react-native'
 import {styles} from './styles'
 export  function Home(){
   return (
@@ -16,6 +15,11 @@ export  function Home(){
         style={styles.input}
         placeholder="Nome do participante"
      />
+     <TouchableOpacity style={styles.button}>
+      <Text style={styles.buttonText}>
+        +
+      </Text>
+     </TouchableOpacity>
     </View>
   )
 }
